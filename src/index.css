@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  /* background: #c33764; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  );       Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fcfcf8;
+  font-family: 'Roboto', sans-serif;
+}
+input {
+  /* background: border-box; */
+  color: #2c2c29;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
